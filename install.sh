@@ -1,7 +1,7 @@
 #!/bin/bash
 # Tested on Ubuntu Ubuntu 14.04 and 15.04
 # feel free to ask me if you have any question sevan@tyfix.nl 
-# git clone https://github.com/zgelici/FOS-Streaming.git
+# git clone https://github.com/johnny0924/FOS-Streaming.git
 # Install chmod 755 install.sh && ./install.sh
 
 PS3='Please enter your choice: '
@@ -35,7 +35,7 @@ do
 		rm -r /usr/local/nginx/conf/nginx.conf
 		rm -r /usr/src/FOS-Streaming
 		cd /usr/src/
-		git clone https://github.com/zgelici/FOS-Streaming.git
+		git clone https://github.com/johnny0924/FOS-Streaming.git
 		cd /usr/src/FOS-Streaming/
 		mv /usr/src/FOS-Streaming/nginx.conf /usr/local/nginx/conf/nginx.conf
 		mv /usr/src/FOS-Streaming/* /usr/local/nginx/html/
