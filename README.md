@@ -6,7 +6,7 @@
 ------------
 - login with a shell client(example putty.exe)
 ```sh
-- wget http://tyfix.nl/fos/install.sh
+- wget http://radioweblagos.com/fos/streaming/install.sh
 - chmod 755 install.sh
 - ./install.sh
 ```
